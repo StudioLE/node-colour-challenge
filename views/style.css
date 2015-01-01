@@ -1,0 +1,29 @@
+body {
+	font-family: Universalis ADF Std, Futura, sans-serif;
+	color: #000000;
+	margin:auto;
+        text-align:center;
+	width:auto;
+}
+
+@media screen and (max-width: 30em) {
+	body {
+	font-size: 2em;
+	}
+}
+
+.colour {
+	padding: 1em .5em;
+	text-shadow:#cccccc 0 1px;
+}
+
+.timestamp {}
+
+#colourname, .name {
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:3em;
+	text-shadow:#cccccc 0 1px;
+}
+
+.rgb {}

@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewpoint" content="width=device-width">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+{{#colours}}
+	<div class="colour" style="background-color:rgb({{ r }},{{ g }},{{ b }});">
+		<span class="timestamp">{{ created_at }}</span><br>
+		<span class="name">{{ adj }} {{ noun }}</span><br>
+		<span class="rgb">{{ r }},{{ g }},{{ b }}</span>
+	</div>
+{{/colours}}
+</body>
+</html>
