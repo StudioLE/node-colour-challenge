@@ -22,19 +22,19 @@ Download the [latest zip from GitHub](https://github.com/StudioLE/node-colour-ch
 
 Add a single colour to the log
 
-- `node add`
+- `node colour-challenge add`
 
 Add multiple colours to the log
 
-- `node add 10`
+- `node colour-challenge add 10`
 
 Spin up a server to view the logs
 
-- `node server`
+- `node colour-challenge server`
 
 Clear all previous logs
 
-- `node clear`
+- `node colour-challenge clear`
 
 ### Methodology
 
@@ -45,4 +45,3 @@ The application follows MVC principles:
 - Three controllers provide the functionality, these are `./add.js`, `./server.js` and `./clear.js`
 
 To log the data hourly `node add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
-
