@@ -1,5 +1,5 @@
 {
-  "name": "random-colour",
+  "name": "node-colour-challenge",
   "version": "0.1.0",
   "description": "",
   "main": "add.js",
@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StudioLE/node-colour-challenge.git"
+  },
   "author": "Laurence Elsdon",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StudioLE/node-colour-challenge/issues"
+  },
+  "homepage": "https://github.com/StudioLE/node-colour-challenge",
   "dependencies": {
     "mustache": "^1.0.0",
   }
