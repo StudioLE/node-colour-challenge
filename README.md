@@ -10,11 +10,9 @@ This version is written in [Node.JS](http://nodejs.org/) and available as a pack
 
 ### Installation
 
-- Using NPM
+- Using NPM (CURRENTLY UNSUPPORTED)
 
-`cd new_directory`
-
-`npm install ohlife_export`
+`npm install node-color-challenge -g`
 
 - Manual
 
