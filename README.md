@@ -34,3 +34,6 @@ Spin up a server to view the logs
 
 - `node server`
 
+Clear all previous logs
+
+- `node clear`
