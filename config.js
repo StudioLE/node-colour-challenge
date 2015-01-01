@@ -1,4 +1,16 @@
 module.exports = {
+	
+	//////////////////////////////////////////////////
+	// Server config
+
+	// Server address
+	server_address: '127.0.0.1',
+
+	// Server port
+	server_port: 1337,
+
+	//////////////////////////////////////////////////
+	// Application paths
 
 	// Path to JSON log file
 	log_json_file: 'data/log.json',
@@ -12,10 +24,7 @@ module.exports = {
 	// Path to mustache template
 	view_file: 'views/log.mst',
 
-	// Server address
-	server_address: '127.0.0.1',
-
-	// Server port
-	server_port: 1337
+	// Path to style.css
+	style_file: 'views/style.css',
 
 }
