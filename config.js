@@ -10,6 +10,12 @@ module.exports = {
 	nouns_file: 'data/nouns.txt',
 
 	// Path to mustache template
-	view_file: 'views/log.mst'
+	view_file: 'views/log.mst',
+
+	// Server address
+	server_address: '127.0.0.1',
+
+	// Server port
+	server_port: 1337
 
 }

@@ -22,7 +22,7 @@ var output = mst.render(template.toString(), { colours: log });
 http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.end(output);
-}).listen(1337, '127.0.0.1');
+}).listen(config.server_port, config.server_address);
 
-console.log('Server running at http://127.0.0.1:1337/');
+console.log('Server running at http://%s:%s/', config.server_address, config.server_port);
 console.log('Close with CTRL + C')
