@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/StudioLE/node-colour-challenge",
   "dependencies": {
-    "mustache": "^1.0.0",
+    "mustache": "^1.0.0"
   }
 }
