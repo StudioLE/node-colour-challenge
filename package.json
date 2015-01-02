@@ -1,8 +1,8 @@
 {
   "name": "node-colour-challenge",
   "version": "0.1.0",
-  "description": "",
-  "main": "add.js",
+  "description": "A Node.js response to the colour code challenge",
+  "main": "colour-challenge.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

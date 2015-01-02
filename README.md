@@ -1,4 +1,4 @@
-# Colour Challenge
+# Colour Code Challenge
 
 The aim of the colour challenge is to create a script to randomly generate an RGB colour every hour and programmatically name it with an adjective + noun.
 
@@ -6,7 +6,9 @@ The challenge was created as a way to compare the syntax between languages with 
 
 ## Node.js Colour Challenge
 
-This version is written in [Node.JS](http://nodejs.org/) and available as a package to download from [NPM](https://www.npmjs.com/)
+A Node.js response to the colour code challenge.
+
+This version is written in [Node.js](http://nodejs.org/) and available as a package to download from [NPM](https://www.npmjs.com/)
 
 ### Installation
 
