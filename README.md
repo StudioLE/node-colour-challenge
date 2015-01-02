@@ -12,7 +12,7 @@ This version is written in [Node.JS](http://nodejs.org/) and available as a pack
 
 Using NPM (CURRENTLY UNSUPPORTED)
 
-- `npm install node-color-challenge -g`
+- `npm install -g node-color-challenge`
 
 Manual
 
