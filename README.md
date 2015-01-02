@@ -10,13 +10,13 @@ This version is written in [Node.JS](http://nodejs.org/) and available as a pack
 
 ### Installation
 
-- Using NPM (CURRENTLY UNSUPPORTED)
+Using NPM (CURRENTLY UNSUPPORTED)
 
-`npm install node-color-challenge -g`
+- `npm install node-color-challenge -g`
 
-- Manual
+Manual
 
-Download the [latest zip from GitHub](https://github.com/StudioLE/node-colour-challenge/archive/master.zip) and extract to a clean directory
+- Download the [latest zip from GitHub](https://github.com/StudioLE/node-colour-challenge/archive/master.zip) and extract to a clean directory
 
 ### Usage
 
