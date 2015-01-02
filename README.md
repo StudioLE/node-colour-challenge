@@ -42,6 +42,8 @@ The application follows MVC principles:
 
 - All data is read and written through functions within the util module `./lib/util.js`. The data is stored within a JSON file.
 - The view is located at `./views/log.mst` written in HTML5 using mustache templating
-- Three controllers provide the functionality, these are `./add.js`, `./server.js` and `./clear.js`
+- Three controllers provide the operations, these are `./lib/add.js`, `./lib/server.js` and `./lib/clear.js`
 
-To log the data hourly `node add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
+Each operation is accessed through `./colour-challenge.js` which acts as the command line interface.
+
+To log the data hourly `node colour-challenge add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
