@@ -44,21 +44,24 @@ npm install -g node-colour-challenge
 ### Usage
 
 Add a single colour to the log
-
-- `node colour-challenge add`
+```
+node colour-challenge add
+```
 
 Add multiple colours to the log
-
-- `node colour-challenge add 10`
+```
+node colour-challenge add 10
+```
 
 Spin up a server to view the logs
-
-- `node colour-challenge server`
+```
+node colour-challenge server
+```
 
 Clear all previous logs
-
-- `node colour-challenge clear`
-
+```
+node colour-challenge clear
+```
 
 ### Cron Setup
 
