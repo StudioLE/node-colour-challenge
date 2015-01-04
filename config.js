@@ -10,6 +10,12 @@ module.exports = {
 	server_port: 1337,
 
 	//////////////////////////////////////////////////
+	// Application config
+
+	// Google Analytics ID
+	google_analytics: 'UA-4718623-13',
+
+	//////////////////////////////////////////////////
 	// Application paths
 
 	// Path to JSON log file
