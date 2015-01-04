@@ -8,9 +8,9 @@
 <body>
 {{#colours}}
 	<div class="colour" style="background-color:rgb({{ r }},{{ g }},{{ b }});">
-		<span class="timestamp">{{ created_at }}</span><br>
+		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span><br>
 		<span class="name">{{ adj }} {{ noun }}</span><br>
-		<span class="rgb">{{ r }},{{ g }},{{ b }}</span>
+		<span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
 	</div>
 {{/colours}}
 </body>
