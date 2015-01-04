@@ -1,29 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
 body {
-	font-family: Universalis ADF Std, Futura, sans-serif;
-	color: #000000;
-	margin:auto;
-        text-align:center;
-	width:auto;
+	margin: auto;
+	width: auto;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
 }
 
-@media screen and (max-width: 30em) {
+::selection {
+	background: rgba(227, 80, 80, 0.5);
+	color: #fff;
+}
+
+@media (min-width: 768px) {
 	body {
-	font-size: 2em;
+		font-size: 16px;
 	}
 }
 
+/*@media (min-width: 992px) {
+	body {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		font-size: 22px;
+	}
+}*/
+
 .colour {
-	padding: 1em .5em;
-	text-shadow:#cccccc 0 1px;
+	padding: 1.4em 1em;
+}
+
+span {
+	display: block;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .timestamp {}
 
-#colourname, .name {
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:3em;
-	text-shadow:#cccccc 0 1px;
+.name {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -1px;
+	text-shadow: rgba(255, 255, 255, 0.3) 0 1px;
+	text-transform: uppercase;
 }
 
 .rgb {}

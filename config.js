@@ -12,6 +12,9 @@ module.exports = {
 	//////////////////////////////////////////////////
 	// Application config
 
+	// Date separator
+	date_separator: ' ▪',
+
 	// Google Analytics ID
 	google_analytics: false,
 

@@ -2,14 +2,15 @@
 <html>
 <head>
 <title>Colour Log</title>
-<meta name="viewpoint" content="width=device-width">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 {{#colours}}
 	<div class="colour" style="background-color:rgb({{ r }},{{ g }},{{ b }});">
-		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span><br>
-		<span class="name">{{ adj }} {{ noun }}</span><br>
+		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span>
+		<span class="name">{{ adj }} {{ noun }}</span>
 		<span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
 	</div>
 {{/colours}}
