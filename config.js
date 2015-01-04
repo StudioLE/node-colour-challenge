@@ -13,7 +13,7 @@ module.exports = {
 	// Application config
 
 	// Google Analytics ID
-	google_analytics: 'UA-4718623-13',
+	google_analytics: false,
 
 	//////////////////////////////////////////////////
 	// Application paths
