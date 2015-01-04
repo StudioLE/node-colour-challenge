@@ -4,6 +4,10 @@ The aim of the colour challenge is to create a script to randomly generate an RG
 
 The challenge was created as a way to compare the syntax between languages with a commonly themed application.
 
+## Demo
+
+[View a demonstration](https://colourchallenge.studiole.uk). The demo is a node.js server running [forever](https://github.com/foreverjs/forever) proxied through Nginx.
+
 ## Node.js Colour Code Challenge
 
 This version is written in [Node.js](http://nodejs.org/) and available as a package to download from [NPM](https://www.npmjs.com/).
