@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
 <head>
-<title>Colour Log</title>
+<title>Node.js Colour Code Challenge by Laurence Elsdon</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 {{#colours}}
-	<div class="colour" style="background-color:rgb({{ r }},{{ g }},{{ b }});">
+	<div class="colour" style="background-color: rgb({{ r }},{{ g }},{{ b }});">
 		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span>
 		<span class="name">{{ adj }} {{ noun }}</span>
 		<span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
@@ -23,7 +23,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', {{ google_analytics }}, 'auto');
 ga('send', 'pageview');
-
 </script>
 {{/google_analytics}}
 </body>
