@@ -37,7 +37,7 @@ npm update
 
 ##### NPM (CURRENTLY UNSUPPORTED)
 ```
-npm install -g node-colour-challenge
+npm install -g colour-challenge
 ```
 
 ##### Manual
