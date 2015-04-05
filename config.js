@@ -4,7 +4,7 @@ module.exports = {
 	// Server config
 
 	// Server address
-	server_address: '127.0.0.1',
+	server_address: 'localhost',
 
 	// Server port
 	server_port: 1337,
@@ -28,12 +28,5 @@ module.exports = {
 	adjectives_file: 'data/adjectives.txt',
 	
 	// Path to nouns txt file
-	nouns_file: 'data/nouns.txt',
-
-	// Path to mustache template
-	view_file: 'views/log.mst',
-
-	// Path to style.css
-	style_file: 'views/style.css',
-
+	nouns_file: 'data/nouns.txt'
 }
