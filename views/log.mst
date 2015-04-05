@@ -4,9 +4,15 @@
 <title>Node.js Colour Code Challenge by Laurence Elsdon</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
-<body>
+<body onhashchange="setClass()" onload="setClass()">
+	<div class="head">
+		<a href="https://github.com/StudioLE/node-colour-challenge"><i class="fa fa-github"></i> Code</a>
+		<a href="#v1"><i class="fa fa-bars"></i> v1</a>
+		<a href="#v2"><i class="fa fa-th"></i> v2</a>
+	</div>
 {{#colours}}
 	<div class="colour" style="background-color: rgb({{ r }},{{ g }},{{ b }});">
 		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span>
@@ -14,6 +20,12 @@
 		<span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
 	</div>
 {{/colours}}
+
+<script>
+function setClass() {
+	document.body.className = window.location.hash.slice(1)
+}
+</script>
 {{#google_analytics}}
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
