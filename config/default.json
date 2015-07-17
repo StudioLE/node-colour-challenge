@@ -1,35 +1,35 @@
-module.exports = {
+{
 	
 	//////////////////////////////////////////////////
 	// Server config
 
 	// Server address
-	server_address: 'localhost',
+	"server_address": "localhost",
 
 	// Server port
-	server_port: 1337,
+	"server_port": 1337,
 
 	//////////////////////////////////////////////////
 	// Application config
 
 	// Date separator
-	date_separator: ' ▪',
+	"date_separator": " ▪",
 
 	// White space to insert for readability of JSON
-	json_spacer: '\t',
+	"json_spacer": "\t",
 
 	// Google Analytics ID
-	google_analytics: false,
+	"google_analytics": false,
 
 	//////////////////////////////////////////////////
 	// Application paths
 
 	// Path to JSON log file
-	log_json_file: 'data/log.json',
+	"log_json_file": "data/log.json",
 
 	// Path to adjectves txt file
-	adjectives_file: 'data/adjectives.txt',
+	"adjectives_file": "data/adjectives.txt",
 	
 	// Path to nouns txt file
-	nouns_file: 'data/nouns.txt'
+	"nouns_file": "data/nouns.txt"
 }
