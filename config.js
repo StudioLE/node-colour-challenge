@@ -15,6 +15,9 @@ module.exports = {
 	// Date separator
 	date_separator: ' ▪',
 
+	// White space to insert for readability of JSON
+	json_spacer: '\t',
+
 	// Google Analytics ID
 	google_analytics: false,
 
