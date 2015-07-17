@@ -26,24 +26,23 @@ To log the data hourly `node colour-challenge add` should be defined as a cron j
 
 ### Installation
 
-The application requires Node.js and npm to be installed, instructions can be found at [nodejs.org](http://nodejs.org/). Then follow one of the three methods below to download the application.
+The application requires Node.js and npm to be installed, instructions can be found at [nodejs.org](http://nodejs.org/). 
 
-##### Git Clone
-```
-git clone https://github.com/StudioLE/node-colour-challenge.git colour-challenge
-cd colour-challenge
-npm update
-```
+With Node installed use the following to install the application globally.
 
-##### NPM
 ```
 npm install -g colour-challenge
 ```
 
-##### Manual
+## Configuration
 
-- Download the [latest zip from GitHub](https://github.com/StudioLE/node-colour-challenge/archive/master.zip) and extract to a clean directory
-- Then run `npm update` within the directory
+Gideon uses [node-config](https://github.com/lorenwest/node-config) so it's highly configurable. I recommend copying the `config/default.json` file to `config/local.json` and editing that so that your changes are not overwritten by future updates.
+
+```
+cd /usr/lib/node_modules/colour-challenge
+cp config/default.json config/local.json
+nano config/local.json
+```
 
 ### Usage
 
