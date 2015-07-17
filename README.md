@@ -35,7 +35,7 @@ cd colour-challenge
 npm update
 ```
 
-##### NPM (CURRENTLY UNSUPPORTED)
+##### NPM
 ```
 npm install -g colour-challenge
 ```
@@ -49,22 +49,27 @@ npm install -g colour-challenge
 
 Add a single colour to the log
 ```
-node colour-challenge add
+colour-challenge add
 ```
 
 Add multiple colours to the log
 ```
-node colour-challenge add 10
-```
-
-Spin up a server to view the logs
-```
-node colour-challenge server
+colour-challenge add 10
 ```
 
 Clear all previous logs
 ```
-node colour-challenge clear
+colour-challenge clear
+```
+
+Spin up a server to view the logs
+```
+colour-challenge server
+```
+
+Spin up a server forever to view the logs
+```
+colour-challenge forever
 ```
 
 ### Cron Setup
@@ -72,7 +77,7 @@ node colour-challenge clear
 To run the script on the hour every hour you will want to configure a cron job similar to the following:
 
 ```
-0 * * * * node /path/to/colour-challenge.js add
+0 * * * * colour-challenge add
 ```
 
 ## Participate

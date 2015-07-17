@@ -1,29 +1,39 @@
 {
   "name": "colour-challenge",
-  "version": "0.1.0",
+  "version": "1.0.0-alpha",
   "description": "A Node.js response to the colour code challenge",
-  "keywords": ["code", "colour", "color", "challenge"],
-  "main": "colour-challenge.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node colour-challenge server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/StudioLE/node-colour-challenge.git"
-  },
+  "keywords": [
+    "code",
+    "colour",
+    "color",
+    "challenge"
+  ],
   "author": {
     "name": "Laurence Elsdon",
     "email": "hi@studiole.uk",
     "url": "https://studiole.uk"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/StudioLE/node-colour-challenge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StudioLE/node-colour-challenge.git"
+  },
   "bugs": {
     "url": "https://github.com/StudioLE/node-colour-challenge/issues"
   },
-  "homepage": "https://github.com/StudioLE/node-colour-challenge",
-  "preferGlobal": true,
+  "license": "MIT",
   "dependencies": {
-    "mustache": "^1.0.0"
-  }
+    "config": "^1.14.0",
+    "mustache": "^1.0.0",
+    "shelljs": "^0.5.1"
+  },
+  "main": "lib/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node colour-challenge server"
+  },
+  "bin": {
+    "colour-challenge": "./bin/cli"
+  },
+  "preferGlobal": true
 }
