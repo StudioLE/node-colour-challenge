@@ -36,6 +36,12 @@ With Node installed use the following to install the application globally.
 npm install -g colour-challenge
 ```
 
+Alternatively install direct from the repository.
+
+```
+npm install -g https://github.com/StudioLE/node-colour-challenge.git
+```
+
 ## Configuration
 
 The app uses [node-config](https://github.com/lorenwest/node-config) so it's highly configurable. I recommend copying the `./config/default.json` file to `./config/local.json` and editing that so that your changes are not overwritten by future updates.

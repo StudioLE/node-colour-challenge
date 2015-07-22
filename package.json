@@ -1,6 +1,6 @@
 {
   "name": "colour-challenge",
-  "version": "1.0.0-alpha2",
+  "version": "1.0.1",
   "description": "A Node.js response to the colour code challenge",
   "keywords": [
     "code",
@@ -32,7 +32,7 @@
   "main": "lib/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node colour-challenge server"
+    "start": "lib/cli server"
   },
   "bin": {
     "colour-challenge": "./bin/cli"
