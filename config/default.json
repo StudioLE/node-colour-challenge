@@ -19,5 +19,37 @@
 	"json_spacer": "\t",
 
 	// Google Analytics ID
-	"google_analytics": false
+	"google_analytics": false,
+
+	//////////////////////////////////////////////////
+	// Autocommit config
+
+	// Autocommit after add
+	"auto_commit": false,
+
+	// GitHub credentials
+	"github": {
+		// GitHub username
+		"username": "YOUR_GITHUB_USERNAME",
+
+		// GitHub password or personal access token
+		// See: https://github.com/settings/tokens/new
+		"password": "YOUR_GITHUB_ACCESS_TOKEN",
+		
+		"repo": {
+			// Repository details
+			"user": "StudioLE",
+			"repo": "node-colour-challenge",
+			"branch": "master",
+			
+			// Commit message
+			"message": "Updated log",
+
+			// Commit If false will use GitHub details
+			"committer": {
+				"name": "YOUR_NAME",
+				"email": "YOUR_EMAIL"
+			}
+		}
+	}
 }

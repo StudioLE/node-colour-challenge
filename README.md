@@ -20,9 +20,11 @@ The application follows MVC principles:
 - The view is located at `./views/log.mst` written in HTML5 using mustache templating
 - Three controllers provide the operations, these are `./lib/add.js`, `./lib/server.js` and `./lib/clear.js`
 
-Each operation is accessed through `./colour-challenge.js` which acts as the command line interface.
+Each operation is accessed through `./lib/cli.js` which acts as the command line interface. They can also be accessed through `./bin/cli` which NPM adds to the users path as `colour-challenge` when installed.
 
-To log the data hourly `node colour-challenge add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
+To log the data hourly `colour-challenge add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
+
+There is an additional autocommit feature which will automatically commit `./data/log.json` to the GitHub repository after a new colour is added. This is only triggered if the config variable `auto_commit` is `true`.
 
 ### Installation
 
@@ -36,7 +38,7 @@ npm install -g colour-challenge
 
 ## Configuration
 
-Gideon uses [node-config](https://github.com/lorenwest/node-config) so it's highly configurable. I recommend copying the `config/default.json` file to `config/local.json` and editing that so that your changes are not overwritten by future updates.
+The app uses [node-config](https://github.com/lorenwest/node-config) so it's highly configurable. I recommend copying the `./config/default.json` file to `./config/local.json` and editing that so that your changes are not overwritten by future updates.
 
 ```
 cd /usr/lib/node_modules/colour-challenge
@@ -69,6 +71,11 @@ colour-challenge server
 Spin up a server forever to view the logs
 ```
 colour-challenge forever
+```
+
+Commit the log to GitHub
+```
+colour-challenge commit
 ```
 
 ### Cron Setup

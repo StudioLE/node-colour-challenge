@@ -1,6 +1,6 @@
 {
   "name": "colour-challenge",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha2",
   "description": "A Node.js response to the colour code challenge",
   "keywords": [
     "code",
@@ -24,6 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "config": "^1.14.0",
+    "github": "^0.2.4",
+    "lodash": "^3.10.0",
     "mustache": "^1.0.0",
     "shelljs": "^0.5.1"
   },
