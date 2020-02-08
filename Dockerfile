@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.4.3
+FROM node:12-alpine
 
 # Copy app directory
 COPY . /srv/app
