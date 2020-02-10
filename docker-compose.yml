@@ -2,12 +2,13 @@ version: '3.3'
 
 services:
   node:
-    container_name: colour-challenge
+    container_name: colourchallenge
     build: .
     volumes:
       - ./data:/srv/app/data
     labels:
       domain: colourchallenge.studiole.uk
+    restart: unless-stopped
     networks:
       - traefik
 networks:
