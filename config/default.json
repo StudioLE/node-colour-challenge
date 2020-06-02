@@ -4,10 +4,10 @@
 	// Server config
 
 	// Server address
-	"server_address": "localhost",
+	"server_address": "0.0.0.0",
 
 	// Server port
-	"server_port": 1337,
+	"server_port": 80,
 
 	//////////////////////////////////////////////////
 	// Application config
