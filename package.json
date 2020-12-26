@@ -23,9 +23,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "config": "^1.14.0",
-    "lodash": "^3.10.0",
-    "mustache": "^1.0.0"
+    "config": "^3.3.3",
+    "lodash": "^4.17.20",
+    "mustache": "^4.1.0"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
