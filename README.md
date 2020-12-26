@@ -6,7 +6,7 @@ The challenge was created as a way to compare the syntax between languages with 
 
 ## Demo
 
-[View a demonstration](https://colourchallenge.studiole.uk). The demo is a node.js server running [forever](https://github.com/foreverjs/forever) proxied through Nginx.
+[View a demonstration](https://colourchallenge.studiole.uk).
 
 ## Node.js Colour Code Challenge
 
@@ -22,9 +22,7 @@ The application follows MVC principles:
 
 Each operation is accessed through `./lib/cli.js` which acts as the command line interface. They can also be accessed through `./bin/cli` which NPM adds to the users path as `colour-challenge` when installed.
 
-To log the data hourly `colour-challenge add` should be defined as a cron job and the server can either be spun up when required or could be kept running constantly using a package such as [forever](https://github.com/foreverjs/forever).
-
-There is an additional autocommit feature which will automatically commit `./data/log.json` to the GitHub repository after a new colour is added. This is only triggered if the config variable `auto_commit` is `true`.
+To log the data hourly `colour-challenge add` should be defined as a cron job.
 
 ### Installation
 
@@ -72,16 +70,6 @@ colour-challenge clear
 Spin up a server to view the logs
 ```
 colour-challenge server
-```
-
-Spin up a server forever to view the logs
-```
-colour-challenge forever
-```
-
-Commit the log to GitHub
-```
-colour-challenge commit
 ```
 
 ### Cron Setup
