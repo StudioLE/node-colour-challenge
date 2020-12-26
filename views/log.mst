@@ -8,22 +8,22 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body onhashchange="setClass()" onload="setClass()">
-	<div class="head">
-		<a href="https://github.com/StudioLE/node-colour-challenge"><i class="fa fa-github"></i> Code</a>
-		<a href="#v1"><i class="fa fa-bars"></i> v1</a>
-		<a href="#v2"><i class="fa fa-th"></i> v2</a>
-	</div>
+  <div class="head">
+    <a href="https://github.com/StudioLE/node-colour-challenge"><i class="fa fa-github"></i> Code</a>
+    <a href="#v1"><i class="fa fa-bars"></i> v1</a>
+    <a href="#v2"><i class="fa fa-th"></i> v2</a>
+  </div>
 {{#colours}}
-	<div class="colour" style="background-color: rgb({{ r }},{{ g }},{{ b }});">
-		<span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span>
-		<span class="name">{{ adj }} {{ noun }}</span>
-		<span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
-	</div>
+  <div class="colour" style="background-color: rgb({{ r }},{{ g }},{{ b }});">
+    <span class="timestamp">{{#formatDate}}{{ created_at }}{{/formatDate}}</span>
+    <span class="name">{{ adj }} {{ noun }}</span>
+    <span class="rgb">{{ r }}, {{ g }}, {{ b }}</span>
+  </div>
 {{/colours}}
 
 <script>
 function setClass() {
-	document.body.className = window.location.hash.slice(1)
+  document.body.className = window.location.hash.slice(1)
 }
 </script>
 {{#google_analytics}}
