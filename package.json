@@ -24,10 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "config": "^1.14.0",
-    "github": "^0.2.4",
     "lodash": "^3.10.0",
-    "mustache": "^1.0.0",
-    "shelljs": "^0.5.1"
+    "mustache": "^1.0.0"
   },
   "main": "lib/cli.js",
   "scripts": {
