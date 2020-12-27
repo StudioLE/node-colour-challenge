@@ -1,0 +1,7 @@
+/config/local*
+.env
+.eslintrc.js
+docker-add.sh
+docker-compose.yml
+Dockerfile
+*.code-workspace
